@@ -1,0 +1,9 @@
+    [Unit]
+    Description=Looking Glass service
+
+    [Service]
+    Type=idle
+    ExecStart=/bin/bash /usr/bin/lg_start.sh
+    
+    [Install]
+    WantedBy=graphical.target
