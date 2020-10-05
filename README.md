@@ -9,5 +9,5 @@ Supported Linux distributions: Ubuntu, Manjaro, Fedora, PopOS and Mint
 For guide, visit: 
 
 Sources: 
-https://looking-glass.hostfission.com/wiki/Installation
-https://forum.level1techs.com/t/vfio-in-2019-fedora-workstation-general-guide-though-branch-draft/145106/41
+* https://looking-glass.hostfission.com/wiki/Installation
+* https://forum.level1techs.com/t/vfio-in-2019-fedora-workstation-general-guide-though-branch-draft/145106/41
