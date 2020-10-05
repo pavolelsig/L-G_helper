@@ -106,4 +106,6 @@ echo "Please be patient"
 sudo ausearch -c 'qemu-system-x86' --raw | audit2allow -M my-qemusystemx86
 sudo semodule -X 300 -i my-qemusystemx86.pp
 sudo setsebool -P domain_can_mmap_files 1
+else
+echo "  /dev/shm/looking-glass rw," >> /etc/apparmor.d/abstractions/libvirt-qemu 
 fi
