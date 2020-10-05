@@ -1,5 +1,5 @@
 #!/bin/bash
-#This is based on Looking Glass quick start quide:
+#This is based on Looking Glass quickstart guide:
 #https://looking-glass.hostfission.com/wiki/Installation
 #Fedora selinux issues resolved thanks to:
 #https://forum.level1techs.com/t/vfio-in-2019-fedora-workstation-general-guide-though-branch-draft/145106/41
@@ -40,9 +40,6 @@ echo "You can still install Looking Glass manually!"
 fi
 
 
-
-GPU=
-MAX=0
 VIRT_USER=`logname`
 
 
