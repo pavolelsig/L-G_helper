@@ -6,7 +6,7 @@ Download Looking Glass from: https://looking-glass.hostfission.com/
 
 Supported Linux distributions: Ubuntu, Manjaro, Fedora, PopOS and Mint
 
-For guide, visit: 
+For guide, visit: https://youtu.be/wEhvQEyiOwI
 
 Sources: 
 * https://looking-glass.hostfission.com/wiki/Installation
