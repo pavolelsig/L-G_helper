@@ -29,7 +29,7 @@ if [ "$DISTRO" == "Ubuntu" ] || [ "$DISTRO" == "Pop" ] || [ "$DISTRO" == "LinuxM
 apt-get install binutils-dev cmake fonts-freefont-ttf libsdl2-dev libsdl2-ttf-dev libspice-protocol-dev libfontconfig1-dev libx11-dev nettle-dev  wayland-protocols -y
 elif [ "$DISTRO" == "ManjaroLinux" ]
 	then
-pacman -Syu binutils sdl2 sdl2_ttf libx11 nettle fontconfig cmake spice-protocol make pkg-config gcc gnu-free-fonts
+pacman -Syu binutils sdl2 sdl2_ttf libx11 libxpresent nettle fontconfig cmake spice-protocol make pkg-config gcc gnu-free-fonts
 elif [ "$FEDORA" == "Fedora" ]
 	then
 	dnf install make cmake binutils-devel SDL2-devel SDL2_ttf-devel nettle-devel spice-protocol fontconfig-devel libX11-devel egl-wayland-devel wayland-devel mesa-libGLU-devel mesa-libGLES-devel mesa-libGL-devel mesa-libEGL-devel libXfixes-devel libXi-devel
