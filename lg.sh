@@ -20,6 +20,10 @@ if [ $(id -u) -ne 0 ]
 fi
 
 
+
+echo "Installing dependencies"
+apt-get install binutils-dev cmake fonts-dejavu-core libfontconfig-dev gcc g++ pkg-config libegl-dev libgl-dev libgles-dev libspice-protocol-dev nettle-dev libx11-dev libxcursor-dev libxi-dev libxinerama-dev libxpresent-dev libxss-dev libxkbcommon-dev libwayland-dev wayland-protocols
+
 #Installing required packages for each distro
 DISTRO=`cat /etc/*release | grep DISTRIB_ID | cut -d '=' -f 2`
 FEDORA=`cat /etc/*release |  head -n 1 | cut -d ' ' -f 1`
