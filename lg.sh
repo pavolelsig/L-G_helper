@@ -31,6 +31,13 @@ FEDORA=`cat /etc/*release |  head -n 1 | cut -d ' ' -f 1`
 if [ "$DISTRO" == "Ubuntu" ] || [ "$DISTRO" == "Pop" ] || [ "$DISTRO" == "LinuxMint" ]
 	then
 apt-get install binutils-dev cmake fonts-freefont-ttf libsdl2-dev libsdl2-ttf-dev libspice-protocol-dev libfontconfig1-dev libx11-dev nettle-dev  wayland-protocols -y
+elif [ "$DISTRO" == "Arch" ]
+	then
+pacman -Syu binutils sdl2 sdl2_ttf libx11 libxpresent nettle fontconfig cmake spice-protocol make pkg-config gcc gnu-free-fonts
+elif [ "$DISTRO" == "ArcoLinux" ]
+	then
+pacman -Syu binutils sdl2 sdl2_ttf libx11 libxpresent nettle fontconfig cmake spice-protocol make pkg-config gcc gnu-free-fonts
+
 elif [ "$DISTRO" == "ManjaroLinux" ]
 	then
 pacman -Syu binutils sdl2 sdl2_ttf libx11 libxpresent nettle fontconfig cmake spice-protocol make pkg-config gcc gnu-free-fonts
